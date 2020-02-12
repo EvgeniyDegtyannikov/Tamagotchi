@@ -1,0 +1,17 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane fx:controller="sample.FXComponents.controllers.GameOverController" fx:id="root"
+            xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: white">
+    <center>
+        <VBox>
+            <Label fx:id="title"/>
+            <ImageView fx:id="deathImage" preserveRatio="true" fitWidth="300" fitHeight="300"/>
+            <Label fx:id="deathReason"/>
+            <Label fx:id="timeTogoToGameMenuButtonBecomeVisible"/>
+            <Button fx:id="goToGameMenuButton" text="OK" visible="false" onAction="#goToGameMenu"/>
+        </VBox>
+    </center>
+</BorderPane>
