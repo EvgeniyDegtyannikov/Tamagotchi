@@ -31,14 +31,7 @@ public class GameSpaceController implements Initializable {
 
     //  ласс, содержащий логику перемещений модели питомца
     private class PetsModelMovementService {
-        DoubleProperty petsMovementFinalPositionByXProperty = new SimpleDoubleProperty();
         DoubleProperty petsModelCurrentPosition = new SimpleDoubleProperty(0.0);
-
-        // ћетод дл€ установки св€зей с классом, содержащим логику происход€щего в основной части игры.
-        private void startMessagingWithOuterGameSpaceStateHandler() {
-            petsMovementFinalPositionByXProperty.bind(GameSpaceController.this.gameSpaceStateHandler
-                    .getPetsModelAfterMotionPositionByXProperty());
-        }
 
         /*
         ћетод, определ€ющий действи€, происход€щие после достижени€ питомцем места назначени€. ”бирает модель еды,
@@ -62,7 +55,7 @@ public class GameSpaceController implements Initializable {
         на 1ед приведет к выходу за нужную координату по оси X, то вызывает onPetsMovementFinish
          */
         private void startListenerOnPetsMovementFinalPositionByXProperty() {
-            petsMovementFinalPositionByXProperty.addListener((observableValue, number, t1) -> {
+            gameSpaceStateHandler.getPetsModelAfterMotionPositionByXProperty().addListener((observableValue, number, t1) -> {
                 if (t1.doubleValue() >= 0 && backgroundImage.getFitWidth() > t1.doubleValue() + petsModelImage.getFitWidth()
                         && !GameSpaceController.this.gameSpaceStateHandler.getGameSpace().isPetMoving()) {
                     GameSpaceController.this.gameSpaceStateHandler.getGameSpace().setPetMoving(true);
@@ -103,7 +96,6 @@ public class GameSpaceController implements Initializable {
     // ћетод, отвечающий за настройку работы PetsModelMovementService
     private void startPetsModelMovementServiceWork() {
         PetsModelMovementService petsModelMovementService = new PetsModelMovementService();
-        petsModelMovementService.startMessagingWithOuterGameSpaceStateHandler();
         petsModelMovementService.startListenerOnPetsMovementFinalPositionByXProperty();
     }
 
