@@ -1,6 +1,6 @@
-package sample.saving;
+package sample.services.savingService;
 
-import sample.pets.Pet;
+import sample.entities.Pet;
 
 import java.io.*;
 

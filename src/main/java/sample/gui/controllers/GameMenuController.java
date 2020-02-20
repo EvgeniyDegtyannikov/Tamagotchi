@@ -1,4 +1,4 @@
-package sample.FXComponents.controllers;
+package sample.gui.controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -6,9 +6,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Tooltip;
-import sample.FXComponents.stateHandlers.GameMenuStateHandler;
-import sample.GameManager;
-import sample.pets.PetsTypes;
+import sample.entities.PetsTypes;
+import sample.services.GameManager;
+import sample.services.controllersStateHandlers.GameMenuStateHandler;
 
 import java.net.URL;
 import java.util.ResourceBundle;

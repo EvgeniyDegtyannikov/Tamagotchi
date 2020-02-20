@@ -1,10 +1,10 @@
-package sample;
+package sample.services;
 
-import sample.FXComponents.stateHandlers.GameMenuStateHandler;
-import sample.FXComponents.stateHandlers.GameOverStateHandler;
-import sample.FXComponents.stateHandlers.GameSpaceStateHandler;
-import sample.pets.Pet;
-import sample.saving.SaveManager;
+import sample.entities.Pet;
+import sample.services.controllersStateHandlers.GameMenuStateHandler;
+import sample.services.controllersStateHandlers.GameOverStateHandler;
+import sample.services.controllersStateHandlers.GameSpaceStateHandler;
+import sample.services.savingService.SaveManager;
 
 //  ласс, управл€ющий игровой логикой приложени€
 public class GameManager {

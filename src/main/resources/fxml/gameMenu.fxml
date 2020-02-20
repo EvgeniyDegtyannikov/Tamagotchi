@@ -2,7 +2,7 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="sample.FXComponents.controllers.GameMenuController">
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="sample.gui.controllers.GameMenuController">
     <HBox>
         <Label text="Enter the name: "/>
         <TextField fx:id="nameTextField"/>

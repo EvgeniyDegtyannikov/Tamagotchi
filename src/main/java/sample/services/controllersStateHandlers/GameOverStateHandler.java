@@ -1,4 +1,4 @@
-package sample.FXComponents.stateHandlers;
+package sample.services.controllersStateHandlers;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -6,9 +6,9 @@ import javafx.application.Platform;
 import javafx.beans.property.*;
 import javafx.scene.image.Image;
 import javafx.util.Duration;
-import sample.ApplicationFXManager;
+import sample.entities.Pet;
 import sample.gameComponents.DeathReason;
-import sample.pets.Pet;
+import sample.services.ApplicationFXManager;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;

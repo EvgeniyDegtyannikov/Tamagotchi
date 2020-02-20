@@ -3,7 +3,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
-<BorderPane fx:controller="sample.FXComponents.controllers.GameOverController"
+<BorderPane fx:controller="sample.gui.controllers.GameOverController"
             xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: white">
     <center>
         <VBox>

@@ -1,7 +1,6 @@
-package sample.FXComponents;
+package sample.entities;
 
 import sample.gameComponents.Weather;
-import sample.pets.Pet;
 
 public class GameSpace {
     private Pet pet;

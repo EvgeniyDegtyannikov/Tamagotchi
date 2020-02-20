@@ -1,8 +1,8 @@
-package sample.pets.realizations;
+package sample.entities.realizations;
 
 import javafx.scene.image.Image;
+import sample.entities.Pet;
 import sample.gameComponents.Food;
-import sample.pets.Pet;
 
 import java.io.IOException;
 import java.io.ObjectInput;

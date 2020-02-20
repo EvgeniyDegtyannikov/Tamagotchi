@@ -1,4 +1,4 @@
-package sample.FXComponents.stateHandlers;
+package sample.services.controllersStateHandlers;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -11,13 +11,13 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.scene.image.Image;
 import javafx.util.Duration;
-import sample.ApplicationFXManager;
-import sample.FXComponents.GameSpace;
-import sample.GameManager;
+import sample.entities.GameSpace;
+import sample.entities.Pet;
 import sample.gameComponents.DeathReason;
 import sample.gameComponents.Mood;
 import sample.gameComponents.Weather;
-import sample.pets.Pet;
+import sample.services.ApplicationFXManager;
+import sample.services.GameManager;
 
 import java.util.Random;
 import java.util.concurrent.Executors;

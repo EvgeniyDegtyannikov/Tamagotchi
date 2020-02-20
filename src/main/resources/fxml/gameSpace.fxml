@@ -3,7 +3,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
-<BorderPane fx:controller="sample.FXComponents.controllers.GameSpaceController"
+<BorderPane fx:controller="sample.gui.controllers.GameSpaceController"
             xmlns:fx="http://javafx.com/fxml">
     <left>
         <VBox>

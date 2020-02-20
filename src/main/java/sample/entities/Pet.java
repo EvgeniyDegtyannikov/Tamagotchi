@@ -1,4 +1,4 @@
-package sample.pets;
+package sample.entities;
 
 import javafx.application.Platform;
 import javafx.beans.property.IntegerProperty;

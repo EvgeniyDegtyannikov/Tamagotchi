@@ -1,9 +1,9 @@
-package sample.pets;
+package sample.entities;
 
-import sample.pets.realizations.Bear;
-import sample.pets.realizations.Cat;
-import sample.pets.realizations.Dog;
-import sample.pets.realizations.Pig;
+import sample.entities.realizations.Bear;
+import sample.entities.realizations.Cat;
+import sample.entities.realizations.Dog;
+import sample.entities.realizations.Pig;
 
 public class PetsFactory {
 

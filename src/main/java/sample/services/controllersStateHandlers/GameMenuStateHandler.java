@@ -1,12 +1,12 @@
-package sample.FXComponents.stateHandlers;
+package sample.services.controllersStateHandlers;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
-import sample.ApplicationFXManager;
-import sample.GameManager;
-import sample.pets.Pet;
-import sample.pets.PetsFactory;
-import sample.pets.PetsTypes;
+import sample.entities.Pet;
+import sample.entities.PetsFactory;
+import sample.entities.PetsTypes;
+import sample.services.ApplicationFXManager;
+import sample.services.GameManager;
 
 // Класс, содержащий логику происходящего в игровом меню.
 public class GameMenuStateHandler {

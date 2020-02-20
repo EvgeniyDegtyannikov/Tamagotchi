@@ -1,4 +1,4 @@
-package sample;
+package sample.services;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

@@ -1,4 +1,4 @@
-package sample.FXComponents.controllers;
+package sample.gui.controllers;
 
 import javafx.application.Platform;
 import javafx.beans.property.DoubleProperty;
@@ -8,8 +8,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Tooltip;
 import javafx.scene.image.ImageView;
-import sample.FXComponents.stateHandlers.GameSpaceStateHandler;
-import sample.GameManager;
+import sample.services.GameManager;
+import sample.services.controllersStateHandlers.GameSpaceStateHandler;
 
 import java.net.URL;
 import java.util.Random;

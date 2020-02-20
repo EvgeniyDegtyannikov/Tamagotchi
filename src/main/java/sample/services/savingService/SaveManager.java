@@ -1,6 +1,6 @@
-package sample.saving;
+package sample.services.savingService;
 
-import sample.pets.Pet;
+import sample.entities.Pet;
 
 // »нтерфейс, определ€ющий общую логику работы с сохранени€ми
 public interface SaveManager {

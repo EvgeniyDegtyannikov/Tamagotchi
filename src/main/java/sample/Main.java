@@ -2,7 +2,9 @@ package sample;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-import sample.saving.SerializationSaveManager;
+import sample.services.ApplicationFXManager;
+import sample.services.GameManager;
+import sample.services.savingService.SerializationSaveManager;
 
 public class Main extends Application {
 
