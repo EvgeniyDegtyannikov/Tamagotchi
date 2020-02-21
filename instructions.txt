@@ -1,4 +1,6 @@
-1. Укажите опциями VM: --module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml
+1. 
+    1.1. Реимпортируйте Maven
+    1.2. Укажите опциями VM: --module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml
     где PATH_TO_FX это путь к javafx-sdk-***\lib, указывающийся в file->settings->appereance&behavior->path variables
 2. Приложение Tamagotchi является програмной реализацией игры Tamagotchi на языке Java.
     2.1. Игрок может выбрать одного из нескольких персонажей при старте игры.
